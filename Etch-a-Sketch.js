@@ -10,7 +10,7 @@ document.body.appendChild(grid_size);
 const setGridSize = () => {
     let value = parseInt(prompt(" Enter the size of the grid"));
     if(isNaN(value) || value <= 0 || value > 100){
-        alert("Value shall be between 0 and 100");
+        alert("Value shall be 1 to 100");
     }
     container.innerHTML = "";
     
