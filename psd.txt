@@ -1,0 +1,51 @@
+Goal
+--------
+An Etch-a-Sketch drawing pad where random colors will fill the 16x16 square grid with a progressive darkening effect. Users will be asked
+a numberical value to decide the size of the grid but it shall not exceed 100. It will also includes a reset button and has a progressive darkening effect 
+which ultimately end with a colored square.
+
+Plan
+---------
+This project will have a minimal GUI an (n x n square grid, alert box and a button.)
+
+1. As soon as the program loads alert box will prompt the user for an integer(n)<100 to create the grid
+
+2. A square grid will be made of n size
+
+3. A hover effect will be implemented every time a mouse pases with a random combination of RGB
+
+4. Every time a mouses pases by a square grid each square will have a progressive darkening effect
+
+5. Each square will get 10% darker and ultimately all the squares will be black
+
+6. A reset button allow users to have a new grid.
+
+Pseudocode(phase 1)
+-------------
+1. Create a container to hold the 16 x 16 squares using js 
+
+2. Create the square divs(all 256) inside the big container
+
+ - Make a single square container inside the bigger container
+
+ - create the square div containers iteratively inside the bigger div containers
+
+3. Applying a hover effect
+
+ - How
+
+ * Create a single div and change color when a mouse enter the div area. - DONE AND EFFECTIVE
+
+4. Adding a button at the top of the grid and a prompt to ask the size of the grid to design - DONE AND EFFECTIVE
+
+ - How
+ * Make  aprompt to ask for the size of the grid
+ 
+ * Create a button at the top of the button for triggering the alerting function and decide the size of the grid to be made
+
+ * Apply random colorizing of the square every time a mosue hover over them
+
+5. Applying a progressive darkening effect 
+ - How
+
+ 
