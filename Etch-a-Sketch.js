@@ -25,7 +25,6 @@ for (let i = 0; i < Math.pow(value,2); i++) {
 
     container.appendChild(square);
     square.addEventListener("mouseover",function(e) {
-        // e.target.style.backgroundColor = changeColor();
         e.target.style.backgroundColor = changeColor();
     });
   }
