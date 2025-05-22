@@ -1,1 +1,1 @@
-This is a 16x16 a Etch-a-Sketch pad
+Etch-a-Sketch pad
